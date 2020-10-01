@@ -77,13 +77,13 @@ body article a:hover {
  display:block;
  background-color:rgba(0,0,0,0.1);
  border-radius: 4px;
- width: 600px;
+ width: 800px;
  height:auto;
  position:relative;
  margin: 0px auto;
  padding: 0px;
  text-align:center;
- font-size:16px;
+ font-size:20px;
  line-height:150%;
 }
 
@@ -98,56 +98,6 @@ body article a:hover {
   padding-left:10px;
   padding-right:10px;
   padding-bottom:10px;
-}
-
-#discogarea {
-  display:block;
-  background: rgba(0,0,0,0.9);
-  width:auto;
-  position:relative;
-  margin:0px;
-  text-align:center;
-  min-height:350px;
-  max-height:800px;
-  font-size:18px;
-}
-
-#discog {
-  display:inline-block;
-  width:275px;
-  height:auto;
-  padding-left:10px;
-  padding-right:10px;
-  position:relative;
-  margin:0px;
-  vertical-align:text-top;
-  text-align:left;
-  color:white;
-  font-size:18px;
-}
-
-#discog a {
-  color:#b59d5d;
-  transition:0.4s;
-}
-
-#discog a:hover {
-  color:#ffffff;
-}
-
-#discog div {
-  margin:0px;
-  padding:0px;
-}
-
-#discog div#underliner {
-  border-bottom:1px solid #fff;
-  margin:0px;
-  padding:0px;
-}
-
-#fullreleases, #epsonly {
-  display:none;
 }
 
 .contactinfo {
@@ -193,6 +143,7 @@ iframe {
   height:100px;
   overflow:hidden;
   margin-bottom:100px;
+  margin-right:10px;
   text-align:right;
-  font-size:14px;
+  font-size:16px;
 }
