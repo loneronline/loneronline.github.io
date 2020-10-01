@@ -44,7 +44,6 @@ body {
 body a {
   color:white;
   transition:0.4s;
-  /*text-decoration:none!important;*/
 }
 
 body a:hover {
