@@ -12,7 +12,7 @@ var x = setInterval(function() {
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  var millis = Math.floor(distance % (1000 * 60) / 10);
+  var millis = Math.floor(distance % (1000 * 60) / 10) - (seconds * 100);
 
   document.getElementById("countdown").innerHTML = countdownHeader + "<br />" + days + "d " + hours + "h "
   + minutes + "m " + seconds + "." + millis + "s ";
