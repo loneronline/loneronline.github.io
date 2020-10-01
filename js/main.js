@@ -19,6 +19,6 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = endText;
+    document.getElementById("countdown").innerHTML = endText;
   }
 }, 16);
