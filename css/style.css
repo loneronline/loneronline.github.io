@@ -15,19 +15,58 @@ body {
 }
 
 video {
-  -webkit-box-shadow: 2px 3px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    2px 3px #000;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         2px 3px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  padding:0px;
+  margin:0px;
 }
 
+.simpleshadow {
+  -webkit-box-shadow: 0 35px 20px #000;
+  -moz-box-shadow: 0 35px 20px #000;
+  box-shadow: 0 35px 20px #000;
+}
+
+.highshadow {
+  position: relative;
+}
+
+.highshadow:before, .highshadow:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:100px;
+  background: #000;
+  -webkit-box-shadow: 0 35px 20px #000;
+  -moz-box-shadow: 0 35px 20px #000;
+  box-shadow: 0 35px 20px #000;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+.highshadow:after {
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+}
+
+/* Sized exactly to the video size. */
 #filmstripbox {
-  height: auto;
-  width: 100%;
+  min-height: 1080px;
+  max-height: 1080px;
+  min-width: 864px;
+  max-width: 864px;
   margin: 0 auto;
   overflow: hidden;
-  position: relative;
-  text-align: center;
-  padding-top: 20px;
 }
 
 /* Changing the max-width to a higher value makes the filmstrip image bigger! */
