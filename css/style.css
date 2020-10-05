@@ -206,10 +206,10 @@ iframe {
   width: 80%;
 }
 
-.formbox-header {
-  text-align:center!important;
-  text-indent:0px!important;
-  padding-bottom:0px!important;
+.formbox-header p {
+  text-align:center;
+  text-indent:0px;
+  padding-bottom:0px;
 }
 
 .artist-contact-form-disclaimer {
