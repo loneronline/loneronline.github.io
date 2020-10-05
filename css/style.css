@@ -69,6 +69,21 @@ video {
   overflow: hidden;
 }
 
+.formbox {
+  margin: 0 auto;
+  width: 80%;
+}
+
+form {
+  text-align:right;
+  padding-right:10%;
+}
+
+input {
+  width: 40%;
+  min-width: 200px;
+}
+
 /* Changing the max-width to a higher value makes the filmstrip image bigger! */
 .filmstrip {
   max-width:130%;
