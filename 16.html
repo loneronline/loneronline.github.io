@@ -14,28 +14,33 @@
   <link href="static/LonerIcon.png" rel="icon" type="image/png">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <style>
-    /*
-    These are colours that should change each event.
-
-    Vol. 16
-    Primary colour: rgba(131, 25, 217, 1.0)
-    Secondary colour: rgba(104, 0, 211, 1.0)
-
+    /**
+    * These are colours and images that must change each event.
+    *
+    * Vol. 16 Primary colour: rgb(131, 25, 217) Purple
     */
 
     h1, h2, a {
       color:rgba(131, 25, 217, 1.0)!important;
     }
 
-    a:hover {
-      color:rgba(255, 255, 255, 1.0)!important;
+    /* Only change background statements here. All other style changes go in style.css. */
+    body {
+      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/LONER_ONLINE_16_BANNER.png');
+      background-repeat: no-repeat;
+      background-position:top 0px;
+      background-size: cover;
     }
-
   </style>
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600,400" rel="stylesheet" type="text/css">
 
   <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
+  <script>
+    // Update this to be the doors time of the event described on this page, in your local timezone.
+    // To easily find this when you update for the next event: this is the time for Vol. 17.
+    var eventCountDownDate = new Date("Oct 2, 2020 22:00:00").getTime();
+  </script>
   <script src="js/main.js"></script>
   <script src="js/k.js"></script> <!-- ...? -->
   <meta property="og:site_name" content="Loner Online"/>
