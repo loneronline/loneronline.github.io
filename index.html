@@ -14,21 +14,23 @@
   <link href="static/LonerIcon.png" rel="icon" type="image/png">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <style>
-    /*
-    These are colours that should change each event.
-
-    Vol. 16
-    Primary colour: rgba(131, 25, 217, 1.0)
-    Secondary colour: rgba(104, 0, 211, 1.0)
-
+    /**
+    * These are colours and images that must change each event.
+    *
+    * Vol. 17 Primary colour: rgb(0, 172, 214) Cyan
+    * Vol. 16 Primary colour: rgb(131, 25, 217) Purple
     */
 
     h1, h2, a {
-      color:rgba(131, 25, 217, 1.0)!important;
+      color:rgba(0, 172, 214, 1.0)!important;
     }
 
-    a:hover {
-      color:rgba(255, 255, 255, 1.0)!important;
+    /* Only change background statements here. All other style changes go in style.css. */
+    body {
+      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/LONER_ONLINE_17_BANNER.png');
+      background-repeat: no-repeat;
+      background-position:top 0px;
+      background-size: cover;
     }
 
   </style>
@@ -39,7 +41,7 @@
   <script src="js/main.js"></script>
   <script src="js/k.js"></script> <!-- ...? -->
   <meta property="og:site_name" content="Loner Online"/>
-  <meta property="og:image" content="static/LONER_ONLINE_16_BANNER.png">
+  <meta property="og:image" content="static/LONER_ONLINE_17_BANNER.png">
 </head>
 
 <body>
@@ -47,7 +49,7 @@
 
 <section id="filmstripbox" class="simpleshadow">
   <video autoplay loop muted playsinline>
-    <source src="static/LONER_ONLINE_16.mp4" type="video/mp4">
+    <source src="static/LONER_ONLINE_17.mp4" type="video/mp4">
     (Your browser does not support the video tag.)
   </video>
 </section>
