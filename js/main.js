@@ -1,9 +1,8 @@
-
-var countDownDate = new Date("Oct 2, 2020 22:00:00").getTime();
-
+// NOTE: eventCountDownDate is a global variable defined in index.html. This is done intentionally
+//   to make new event updates mostly a single-file edit rather than a multi-file edit.
 var x = setInterval(function() {
   var now = new Date().getTime();
-  var distance = countDownDate - now;
+  var distance = eventCountDownDate - now;
   var countdownHeader = "Show starts in..."
   var endText = '<a href="http://twitch.loneronline.com">View the show on Twitch!</a>';
 
