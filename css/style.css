@@ -1,8 +1,16 @@
+@font-face {
+    font-family: 'EurostileMed';
+    src: url('https://cdn.rawgit.com/nathpugs/eurostile/cdef8418/urw_-_eurostile-med-webfont.woff2') format('woff2'),
+         url('https://cdn.rawgit.com/nathpugs/eurostile/cdef8418/urw_-_eurostile-med-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
 body {
   /* Control the background through inline CSS to simplify required edits for each site update. */
   display:block;
   overflow:auto;
-  font-family: 'Titillium Web', Verdana, sans-serif;
+  font-family: 'EurostileMed', Verdana, sans-serif;
   color:white;
   font-size:36px;
   border:0px!important;
