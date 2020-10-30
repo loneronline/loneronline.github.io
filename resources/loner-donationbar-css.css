@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Trispace&display=swap");
+.goal-static-text {
+  position: absolute;
+  color: white;
+  width: 200px;
+  overflow: hidden;
+  text-align: left;
+  transform: skew(-45deg);
+  top: 85px;
+  left: 225px;
+}
+
+.goal-cont {
+  position: relative;
+  font-family: "Trispace", sans-serif;
+  color: white;
+  width: 380px;
+  height: 100px;
+  z-index: 200;
+}
+.goal-cont__current {
+  position: relative;
+  text-align: left;
+  width: 380px;
+  left: 5%;
+  top: 45px;
+  z-index: 210;
+}
+.goal-cont__title {
+  position: absolute;
+  text-align: center;
+  width: 380px;
+  top: 45px;
+  z-index: 210;
+}
+.goal-cont__total {
+  position: relative;
+  text-align: right;
+  width: 380px;
+  right: 5%;
+  top: 25px;
+  z-index: 210;
+}
+
+.goal-bar {
+  width: 380px;
+  font-family: "Trispace", sans-serif;
+  color: white;
+}
+.goal-bar__borderfloat {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 3.8943;
+  stroke-miterlimit: 10;
+  z-index: 110;
+}
+
+.goal-bar-borderfloat {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  z-index: 130;
+}
+
+.goal-bar-borderfloat-polygon {
+  fill: none;
+  stroke: #FFFFFF;
+  stroke-width: 3.8943;
+  stroke-miterlimit: 10;
+}
+
+.goal-bar-progress {
+  display: block;
+  position: absolute;
+  width: 0%;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  z-index: 120;
+  transition: width 0.3s ease-out;
+}
+
+.goal-bar-progress-polygon {
+  fill: #006e00;
+}
+
+.goal-bar-bg {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  z-index: 0;
+}
+
+.goal-bar-bg-polygon {
+  fill: black;
+  fill-opacity: .8;
+}
