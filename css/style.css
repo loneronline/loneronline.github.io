@@ -130,6 +130,20 @@ body article a:hover {
   color:#b59d5d;
 }
 
+.photobox {
+  display:block;
+  padding:10px;
+}
+
+.photobox img {
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  position:relative;
+  margin:0px auto;
+}
+
 .menubox {
   display:block;
   width:auto;
