@@ -135,6 +135,15 @@ body article a:hover {
   padding:10px;
 }
 
+.donobox {
+  display:block;
+  min-width: 50%;
+  max-width: 80%;
+  padding:10px;
+  margin:0 auto;
+  text-align:center;
+}
+
 .photobox img {
   display:block;
   width:auto;
