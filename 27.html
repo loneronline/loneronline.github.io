@@ -35,7 +35,6 @@
     /**
     * These are colours and images that must change each event.
     *
-    * HOM3 Primary colour: rgb(249, 79, 87) Pastel Red
     * Vol. 27 Primary colour: rgb(213, 18, 34) Red
     * Vol. 26 Primary colour: rgb(197, 237, 48) Lime
     * Vol. 25 Primary colour: rgb(203, 132, 234) Light Pink
@@ -51,12 +50,12 @@
     * Vol. 16 Primary colour: rgb(131, 25, 217) Purple
     */
     h1, h2, a {
-      color:rgb(249, 79, 87)!important;
+      color:rgb(213, 18, 34)!important;
     }
 
     /* Only change background statements here. All other style changes go in style.css. */
     body {
-      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/hom3alonerposter.png');
+      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/LONER_ONLINE_27_BANNER.jpg');
       background-repeat: no-repeat;
       background-position:top 0px;
       background-size: cover;
@@ -69,10 +68,10 @@
   <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
   <script>
     // Update this to be the doors time of the event described on this page, in your local timezone.
-    // To easily find this when you update for the next event: this is the time for HOM3 Takeover.
+    // To easily find this when you update for the next event: this is the time for Vol 27.
     // Note: PST is -08:00 and runs November to March, PDT is -07:00 and runs November to March. You
     // have to change this as appropriate.
-    var eventCountDownDate = new Date("2021-04-09T20:00:00.000-07:00").getTime();
+    var eventCountDownDate = new Date("2021-04-02T21:00:00.000-07:00").getTime();
   </script>
   <script src="js/main.js"></script>
   <script src="js/k.js"></script> <!-- ...? -->
@@ -81,8 +80,11 @@
 <body>
 <section class="emptybox" style="height:20px;"></section>
 
-<section id="filmstripboximg" class="simpleshadow">
-  <img src="static/hom3alonerposter.png" />
+<section id="filmstripbox" class="simpleshadow">
+  <video autoplay loop muted playsinline>
+    <source src="static/LONER_ONLINE_27.mp4" type="video/mp4">
+    (Your browser does not support the video tag.)
+  </video>
 </section>
 
 <section class="emptybox" style="height:20px;"></section>
