@@ -35,7 +35,8 @@
     /**
     * These are colours and images that must change each event.
     *
-    * HOM3 Primary colour: rgb(249, 79, 87) Pastel Red
+    * HOM3 Primary colour: rgb(243, 230, 238) White with Pink Hue
+    * HOM3 Secondary colour: rgb(163, 69, 176) Purple
     * Vol. 27 Primary colour: rgb(213, 18, 34) Red
     * Vol. 26 Primary colour: rgb(197, 237, 48) Lime
     * Vol. 25 Primary colour: rgb(203, 132, 234) Light Pink
@@ -51,12 +52,12 @@
     * Vol. 16 Primary colour: rgb(131, 25, 217) Purple
     */
     h1, h2, a {
-      color:rgb(249, 79, 87)!important;
+      color:rgb(163, 69, 176)!important;
     }
 
     /* Only change background statements here. All other style changes go in style.css. */
     body {
-      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/hom3alonerposter.png');
+      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/hom3alonerposter_BANNER.png');
       background-repeat: no-repeat;
       background-position:top 0px;
       background-size: cover;
@@ -79,7 +80,20 @@
 </head>
 
 <body>
-<section class="emptybox" style="height:20px;"></section>
+
+<section class="emptybox" style="height:50px;"></section>
+
+<section class="biobox darkerbg">
+  <h2>Loner Clothing Launch</h2>
+    <article class="photobox">
+      <a href="https://store.loneronline.com">
+        <img src="static/loner-clothing-collage.png" />
+      </a>
+    </article>
+    <article>The official LONER store is here with the release of the limited run LONER Online "ORIGINAL" Tee. <a href="https://store.loneronline.com">Head to the store to shop now!</a></article>
+</section>
+
+<section class="emptybox" style="height:50px;"></section>
 
 <section id="filmstripboximg" class="simpleshadow">
   <img src="static/hom3alonerposter.png" />

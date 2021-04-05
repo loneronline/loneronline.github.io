@@ -215,6 +215,10 @@ body article a:hover {
  line-height:150%;
 }
 
+.darkerbg {
+ background-color:rgba(0,0,0,0.4);
+}
+
 .biobox article {
   text-indent:15px;
   padding-bottom:10px;
