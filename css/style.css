@@ -19,6 +19,11 @@ body {
   padding:0px;
 }
 
+h2 {
+  padding-top:20px;
+  margin-bottom:0px;
+}
+
 a:hover {
   color:rgba(255, 255, 255, 1.0)!important;
 }
@@ -165,7 +170,7 @@ body article a:hover {
 
 .photobox {
   display:block;
-  padding:10px;
+  padding:20px;
 }
 
 .donobox {
