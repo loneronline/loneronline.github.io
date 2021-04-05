@@ -82,7 +82,7 @@ video {
 
 /* When flyers are static images, use this instead. Allows for different sizes from video flyers. */
 #filmstripboximg {
-  max-height: 1440px;
+  max-height: 1920px;
   max-width: 1080px;
   margin: 0 auto;
   overflow: hidden;
