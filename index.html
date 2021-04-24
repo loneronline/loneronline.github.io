@@ -35,6 +35,7 @@
     /**
     * These are colours and images that must change each event.
     *
+    * Vol. 29 Primary colour: rgb(14, 204, 223) Cyan
     * Vol. 28 Primary colour: rgb(145, 203, 142) Green
     * HOM3 Primary colour: rgb(243, 230, 238) White with Pink Hue
     * HOM3 Secondary colour: rgb(163, 69, 176) Purple
@@ -53,12 +54,12 @@
     * Vol. 16 Primary colour: rgb(131, 25, 217) Purple
     */
     h1, h2, a {
-      color:rgb(145, 203, 142)!important;
+      color:rgb(14, 204, 223)!important;
     }
 
     /* Only change background statements here. All other style changes go in style.css. */
     body {
-      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/LONER_ONLINE_28_BANNER.jpg');
+      background: linear-gradient(180deg, rgba(33,33,33,0) 0%, rgba(33,33,33,1) 20%), url('../static/LONER_ONLINE_29_BANNER.png');
       background-repeat: no-repeat;
       background-position:top 0px;
       background-size: cover;
@@ -71,10 +72,10 @@
   <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
   <script>
     // Update this to be the doors time of the event described on this page, in your local timezone.
-    // To easily find this when you update for the next event: this is the time for Vol 28.
+    // To easily find this when you update for the next event: this is the time for Vol 29.
     // Note: PST is -08:00 and runs November to March, PDT is -07:00 and runs November to March. You
     // have to change this as appropriate.
-    var eventCountDownDate = new Date("2021-04-16T21:00:00.000-07:00").getTime();
+    var eventCountDownDate = new Date("2021-04-30T21:00:00.000-07:00").getTime();
   </script>
   <script src="js/main.js"></script>
   <script src="js/k.js"></script> <!-- ...? -->
@@ -98,7 +99,7 @@
 
 <section id="filmstripbox" class="simpleshadow">
   <video autoplay loop muted playsinline>
-    <source src="static/LONER_ONLINE_28.mp4" type="video/mp4">
+    <source src="static/LONER_ONLINE_29.mp4" type="video/mp4">
     (Your browser does not support the video tag.)
   </video>
 </section>
