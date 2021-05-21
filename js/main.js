@@ -13,11 +13,14 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   var millis = Math.floor(distance % (1000 * 60) / 10) - (seconds * 100);
 
-  document.getElementById("countdown").innerHTML = countdownHeader + "<br />" + days + "d " + hours + "h "
-  + minutes + "m " + seconds + "." + millis + "s ";
-
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = endText;
+  var countdownTarget = document.getElementById("countdown");
+  if (countdownTarget !== null) {
+    if (distance < 0) {
+      clearInterval(x);
+      countdownTarget.innerHTML = endText;
+    } else {
+      countdownTarget.innerHTML = countdownHeader + "<br />" + days + "d " + hours + "h "
+      + minutes + "m " + seconds + "." + millis + "s ";
+    }
   }
 }, 16);
