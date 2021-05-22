@@ -1,0 +1,23 @@
+.siteNavigationContainer {
+  display: block;
+  background: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.siteNavigationContainer a {
+  display: inline;
+  width: auto;
+  height: auto;
+  /* Get this: margin-top doesn't work on
+  `a` and `p` tags due to margin collapse with
+  its parent. Use padding-top on the container.
+  margin-top: 20px;
+  */
+  margin-left: 60px;
+  margin-right: 60px;
+}
