@@ -74,16 +74,22 @@
   <script src="http://code.jquery.com/jquery-2.0.3.js"></script>
   <script>
     // Update this to be the doors time of the event described on this page, in your local timezone.
-    // To easily find this when you update for the next event: this is the time for Vol 30.
+    // To easily find this when you update for the next event: this is the time for Vol 6969.
     // Note: PST is -08:00 and runs November to March, PDT is -07:00 and runs November to March. You
     // have to change this as appropriate.
-    var eventCountDownDate = new Date("2021-05-14T21:00:00.000-07:00").getTime();
+    var eventCountDownDate = new Date("2022-06-01T21:00:00.000-07:00").getTime();
   </script>
   <script src="js/main.js"></script>
   <script src="js/k.js"></script> <!-- ...? -->
 </head>
 
 <body>
+
+<!-- Buttons across the top to direct IRL vs online event interest. -->
+<section class="siteNavigationContainer">
+  <a href="#irlEvents">IRL EVENTS</a>
+  <a href="#onlineEvents">ONLINE EVENTS</a>
+</section>
 
 <section class="emptybox" style="height:50px;"></section>
 
@@ -99,34 +105,44 @@
 
 <section class="emptybox" style="height:50px;"></section>
 
-<section id="filmstripboximg" class="simpleshadow">
-  <a href="https://cornerhotel.com/gig/147925845185/">
-    <img src="static/true-north-tour-flyer.jpeg" />
-  </a>
-</section>
+<div id="irlEvents">
+  <section id="filmstripboximg" class="simpleshadow">
+    <a href="https://cornerhotel.com/gig/147925845185/">
+      <img src="static/true-north-tour-flyer.jpeg" />
+    </a>
+  </section>
 
-<section class="biobox">
-  <h1>True North Tour:<br />NINAJIRACHI & KOTA BANKS in Melbourne</h1>
-  <article>With the new single Slytherin coming in hot and Secretive still in high rotation, Australia's most dynamic progressive pop duo Ninajirachi and Kota Banks present the True North Tour. Heading up and down Australia's East Coast, Nina and Kota are bringing the live experience of their critically acclaimed True North EP on the road, for a strictly limited tri-city trek.<br />
-    <br />
-    <a href="https://cornerhotel.com/gig/147925845185/">Get tickets and information here!</a></article>
-</section>
-
+  <section class="biobox">
+    <h1>True North Tour:<br />NINAJIRACHI & KOTA BANKS in Melbourne</h1>
+    <article>With the new single Slytherin coming in hot and Secretive still in high rotation, Australia's most dynamic progressive pop duo Ninajirachi and Kota Banks present the True North Tour. Heading up and down Australia's East Coast, Nina and Kota are bringing the live experience of their critically acclaimed True North EP on the road, for a strictly limited tri-city trek.<br />
+      <br />
+      <a href="https://cornerhotel.com/gig/147925845185/">Get tickets and information here!</a></article>
+  </section>
+</div>
 <section class="emptybox" style="height:20px;"></section>
 
-<!--
-<h2 style="text-align:center" id="countdown"></h2>
+<div id="onlineEvents">
+  <section id="filmstripbox" class="simpleshadow">
+    <video autoplay loop muted playsinline>
+      <source src="static/LONER_ONLINE_30.mp4" type="video/mp4">
+      (Your browser does not support the video tag.)
+    </video>
+  </section>
 
-<section class="biobox">
-  <h1>HOW TO ATTEND THE SHOW</h1>
-  <h2><a href="http://twitch.loneronline.com">Option 1: Livestream on Twitch</a></h2>
-  <p>Watching the show is as simple as navigating to the <strong><a href="http://twitch.loneronline.com">Twitch channel for Loner ONLINE</a></strong>!</p>
-  <p>When the show is starting the stream will automatically pop up. When the show is done, the replay video will be available under Recent Videos on Twitch.</p>
+  <section class="emptybox" style="height:20px;"></section>
+  <h2 style="text-align:center" id="countdown"></h2>
 
-  <h2><a href="http://invite.loneronline.com">Option 2: Join in VRChat</a></h2>
-  <p>If you have a PC and have VRChat installed (Windows only), you can join in the fun right in game! The exact details of how to join in game are provided on the day of the event on the Loner Discord. To get started, <a href="http://invite.loneronline.com">join the Discord server</a> and instructions will be provided on how to join.</p>
-</section>
--->
+  <section class="biobox">
+    <h1>HOW TO ATTEND THE SHOW</h1>
+    <h2><a href="http://twitch.loneronline.com">Option 1: Livestream on Twitch</a></h2>
+    <p>Watching the show is as simple as navigating to the <strong><a href="http://twitch.loneronline.com">Twitch channel for Loner ONLINE</a></strong>!</p>
+    <p>When the show is starting the stream will automatically pop up. When the show is done, the replay video will be available under Recent Videos on Twitch.</p>
+
+    <h2><a href="http://invite.loneronline.com">Option 2: Join in VRChat</a></h2>
+    <p>If you have a PC and have VRChat installed (Windows only), you can join in the fun right in game! The exact details of how to join in game are provided on the day of the event on the Loner Discord. To get started, <a href="http://invite.loneronline.com">join the Discord server</a> and instructions will be provided on how to join.</p>
+  </section>
+
+</div>
 
 <section class="emptybox" style="height:50px;"></section>
 

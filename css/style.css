@@ -6,6 +6,10 @@
     font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   /* Control the background through inline CSS to simplify required edits for each site update. */
   display:block;
